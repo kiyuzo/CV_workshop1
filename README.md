@@ -27,13 +27,27 @@ pip install opencv-python numpy matplotlib scikit-learn
 ```bash 
 .
 ├── /.venv/                  # local virtual environment storing Python packages & dependencies (isolates from system Python)
-├── /images/                 # dataset images, you may add or remove (each person uses 10 different pictures)
+├── /images/                 # dataset images
 ├── CV_Workshop1.ipynb       # notebook file
 ├── README.md                # hey! you're currently reading this :>
 ├── dataset.zip              # downloaded automatically from gdrive
 ├── eigenface_pipeline.pkl   # saved trained model
 └── script.py                # the main app used to run the program.
 ```
+
+## Dataset
+The original dataset consists of:
+- George W Bush
+- Laura Bush
+- Serena Williams
+- Vladimir Putin
+
+The added datasets are:
+- Rama Pratama (Me)
+- Windah Basudara
+- Scarlett Johansson
+
+To add new datasets, just include an extra folder in the /images/ with the name of the person on the folder and each folder must consist of at least 10 different pictures of that person.
 
 ## How To Run
 1. Ensure the model file exists

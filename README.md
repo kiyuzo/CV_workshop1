@@ -54,6 +54,7 @@ Recognized faces will be labelled with names and scores in real-time.
 Press q on your keyboard to quit the webcam and close the application.
 
 ## Example Output
+Here's a demonstration video of the face recognition app
 [![Watch the video](https://img.youtube.com/vi/pW91ymKl44k/0.jpg)](https://youtu.be/pW91ymKl44k)
 
 ## Notes
